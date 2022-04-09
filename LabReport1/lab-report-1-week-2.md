@@ -71,12 +71,12 @@ Typing a password each time we log onto the remote server can time consuming. By
 To accomplish this, follow the following steps:
 1. Run `ssh-keygen` on the client terminal (*Windows users should type `ssh-keygen -t ed25519*)
 2. When prompted with ` Enter file in which to save the key`, enter   
-`(/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa`, replacing `<user-name>` with your machine's appropriate path
+`(/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa`, replacing user-name with your machine's appropriate path
 3. When prompted with `Enter passphrase` hit `return`. Repeat when asked to enter the passphrase again
 4. Log onto the remote server with `ssh cs15lsp22(username)@ucsd.edu` and enter your password
 5. Run `mkdir .ssh` and logout with `exit` 
 6. Run  
-` scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22(username)@ieng6.ucsd.edu:~/.ssh/authorized_keys` replacing `<user-name>` with your machine's appropriate path and (username) with your ieng6 account username. Enter your password if prompted  
+`scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22(username)@ieng6.ucsd.edu:~/.ssh/authorized_keys` replacing the user-name with your machine's appropriate path and (username) with your ieng6 account username. Enter your password if prompted  
 
 Try logging in with `ssh`. You shouldn't need a password anymore! The same should apply for `scp`.
 
