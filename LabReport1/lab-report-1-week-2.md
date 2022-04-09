@@ -8,7 +8,7 @@ To install VSCode, visit the [VScode Website](https://code.visualstudio.com) and
  ![Image of VSCODE SETUP](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport1/Screen%20Shot%202022-04-01%20at%206.12.35%20PM.png?raw=true)  
 
 ## **Remote Connection**
->   <font size = "3"> Prior to the lab, make sure you [reset your password](https://sdacs.ucsd.edu/~icc/index.php) for your cs15lsp22 account. >\</font>
+>   <font size = "3"> Prior to the lab, make sure you [reset your password](https://sdacs.ucsd.edu/~icc/index.php) for your cs15lsp22 account. </font>
 
 
 Open the terminal and type:  
