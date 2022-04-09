@@ -89,7 +89,7 @@ Typing out multiple commands and repeating longer commands can still be tedious.
 
 - Writing a command in quotes after an `ssh` command will run the command on the remote server and immediately `exit`. Try `ssh cs15lsp22(username)@ieng6.ucsd.edu "ls"`.
 - Multiple commands can also be ran at the same time in the terminal using semicolons.   
-Try `cp WhereAmI.java WhereAmI2.java; javac WhereAmI2.java; java WhereAmI`
+Try `cp WhereAmI.java WhereAmI2.java; javac WhereAmI2.java; java WhereAmI`.
 - An important note is that you can use the up-arrow on the keyboard to recall the last command. Pressing the up-arrow multiple times will recall other previous commands.
 
 >Make a change to `WhereAmI.java` in your client and save it. Try to copy these changes onto the remote server, run `javac` on the remote server, and run `java` on the remote server in the least amount of keystrokes.
