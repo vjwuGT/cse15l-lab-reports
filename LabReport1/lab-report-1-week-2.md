@@ -54,10 +54,10 @@ We will be using a command called `scp` which stands for Secure Copy Protocol. T
 Follow the following steps:  
 1. Run `javac` and `java` commands for the `WhereAmI.java` file. Make an observation about the output.
 2. From the directory containing the `WhereAmI.java` file, run   
-`scp WhereAmI.java cs15lsp22(username)@ieng6.ucsd.edu:~/`
-3. Enter your password
+`scp WhereAmI.java cs15lsp22(username)@ieng6.ucsd.edu:~/`.
+3. Enter your password.
 4. Log into the ien6 with `ssh cs15lsp22(username)@ieng6.ucsd.edu`
-5. Use `ls`. You should be able to see the `WhereAmI.java` file
+5. Use `ls`. You should be able to see the `WhereAmI.java` file.
 6. Try running `javac` and `java` for the `WhereAmI.java` file. What is different?
 
 Your result should look like:
@@ -69,13 +69,13 @@ Your result should look like:
 Typing a password each time we log onto the remote server can time consuming. By using SSH keys we can circumvent this to automatically bypass the password requirement.
 
 To accomplish this, follow the following steps:
-1. Run `ssh-keygen` on the client terminal (*Windows users should run `ssh-keygen -t ed25519`*)
+1. Run `ssh-keygen` on the client terminal (*Windows users should run `ssh-keygen -t ed25519`*).
 2. When prompted with `Enter file in which to save the key`, enter   
-`(/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa`, replacing user-name with your machine's appropriate path
-3. When prompted with `Enter passphrase` hit `return`. Repeat when asked to enter the passphrase again
-4. Log onto the remote server with `ssh cs15lsp22(username)@ucsd.edu` and enter your password
-5. Run `mkdir .ssh` and logout with `exit` 
-6. Run `scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22(username)@ieng6.ucsd.edu:~/.ssh/authorized_keys` replacing the user-name with your machine's appropriate path and (username) with your ieng6 account username. Enter your password if prompted  
+`(/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa`, replacing user-name with your machine's appropriate path.
+3. When prompted with `Enter passphrase` hit `return`. Repeat when asked to enter the passphrase again.
+4. Log onto the remote server with `ssh cs15lsp22(username)@ucsd.edu` and enter your password.
+5. Run `mkdir .ssh` and logout with `exit`.
+6. Run `scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22(username)@ieng6.ucsd.edu:~/.ssh/authorized_keys` replacing the user-name with your machine's appropriate path and (username) with your ieng6 account username. Enter your password if prompted.
 
 Try logging in with `ssh`. You shouldn't need a password anymore! The same should apply for `scp`.
 
@@ -92,7 +92,7 @@ Typing out multiple commands and repeating longer commands can still be tedious.
 Try `cp WhereAmI.java WhereAmI2.java; javac WhereAmI2.java; java WhereAmI`
 - An important note is that you can use the up-arrow on the keyboard to recall the last command. Pressing the up-arrow multiple times will recall other previous commands.
 
->Make a change to `WhereAmI.java` in your client and save it. Try to copy these changes onto to remote server, run `javac` on the remote server, and run `java` on the remote server in the least amount of keystrokes.
+>Make a change to `WhereAmI.java` in your client and save it. Try to copy these changes onto the remote server, run `javac` on the remote server, and run `java` on the remote server in the least amount of keystrokes.
 
 Solution with one line:
 ![1 liner](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport1/Screen%20Shot%202022-04-09%20at%202.49.44%20AM.png?raw=true)
@@ -101,9 +101,9 @@ Solution with one line:
 ## **Summary**
 
 Congratulations! You should be able to:
-- Create and edit files with VScode
-- Connect to a remote server using `ssh`
-- Navigate and view files using the terminal
-- Copy files from a local machine to a remote server
-- Create an ssh key to use a remote server without a password
-- Quickly use terminal commands and optimize your work-flow
+- Create and edit files with VScode.
+- Connect to a remote server using `ssh`.
+- Navigate and view files using the terminal.
+- Copy files from a local machine to a remote server.
+- Create an ssh key to use a remote server without a password.
+- Quickly use terminal commands and optimize your work-flow.
