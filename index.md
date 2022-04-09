@@ -7,7 +7,8 @@
 
 *I can make text italicized*
 
-[Link to Course Website](https://3sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/syllabus)
+[Link to LAB REPORT 1]( https://vjwuucsd.github.io/cse15l-lab-reports/lab-report-1-week-2.html
+)
 
 ![Here is a picture of Jaden Smith](https://static.independent.co.uk/2021/11/11/09/Screenshot%202021-11-11%20at%202.59.20%20PM.png?width=1200)
 
