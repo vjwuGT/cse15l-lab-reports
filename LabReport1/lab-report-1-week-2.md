@@ -20,9 +20,9 @@ Replace (username) with the three letters from your [account name](https://sdacs
 Type in your password (it should not be visible to protect your privacy) and hit return/enter. For any first time prompts, type `yes` and hit `return`. You should now be connected to the remote machine.
 
 Example of the Command and Successful Connection: 
-![Image for Remote Connection](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport1/Screen%20Shot%202022-04-01%20at%206.16.03%20PM.png?raw=true) 
+![Image for Remote Connection](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport1/Screen%20Shot%202022-04-01%20at%206.16.03%20PM.png?raw=true)
 
- ## **Try Some Commands**
+## **Try Some Commands**
 
 Try some commands out while connected to the remote machine. Here are a few you can try:
 ```
