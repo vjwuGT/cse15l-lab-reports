@@ -50,6 +50,10 @@ The change that was implemented is to instead run the while loop to the `markdow
 ## **File with no link bug fix:**
 
 Example of the fix:
-![change]()
+![change](https://raw.githubusercontent.com/vjwuUCSD/cse15l-lab-reports/main/LabReport2/Screen%20Shot%202022-04-24%20at%209.16.46%20PM.png)
+
+[Test file](https://github.com/vjwuUCSD/markdown-parser/blob/main/my%20test%20files/test4-file.md?plain=1) that caused the error. There are no links so the file will break.
+
+![output]()
 File with no link bug fix:
 https://github.com/swang0222/markdown-parser/commit/a8a070cd126e900b856085930cc930f718615890
