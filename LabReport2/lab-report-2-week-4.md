@@ -27,6 +27,13 @@ The failure inducing input contained in the [test file](https://github.com/vjwuU
 
 The change shown above reads the substring before the next instance of `"["` and checks if it is equal to `"!"` which is the difference between the declaration of an image link and regular link. If it is equal to `"!"`, the program will skip the entire link and move the index to the end parenthesis.
 
+## **Infinite loop bug fix**
+
+Example of the fix:
+![change](https://raw.githubusercontent.com/vjwuUCSD/cse15l-lab-reports/main/LabReport2/Screen%20Shot%202022-04-24%20at%208.55.50%20PM.png)
+
+[Test file](https://github.com/vjwuUCSD/markdown-parser/blob/7806b22acdf41e0f9153f9389279ffd4ce432c41/test3-file.md?plain=1)
+
 
 
 Infinite loop bug fix:
