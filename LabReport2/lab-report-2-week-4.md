@@ -49,5 +49,7 @@ The change that was implemented is to instead run the while loop to the `markdow
 
 ## **File with no link bug fix:**
 
+Example of the fix:
+![change]()
 File with no link bug fix:
 https://github.com/swang0222/markdown-parser/commit/a8a070cd126e900b856085930cc930f718615890
