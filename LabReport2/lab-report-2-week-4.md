@@ -29,7 +29,7 @@ The failure inducing input contained in the [test file](https://github.com/vjwuU
 
 The change shown above reads the substring before the next instance of `"["` and checks if it is equal to `"!"` which is the difference between the declaration of an image link and regular link. If it is equal to `"!"`, the program will skip the entire link and move the index to the end parenthesis.
 
-## **Infinite loop bug fix**
+## **Text after the last link**
 
 Example of the fix:
 ![change](https://raw.githubusercontent.com/vjwuUCSD/cse15l-lab-reports/main/LabReport2/Screen%20Shot%202022-04-24%20at%208.55.50%20PM.png)
@@ -54,6 +54,18 @@ Example of the fix:
 
 [Test file](https://github.com/vjwuUCSD/markdown-parser/blob/main/my%20test%20files/test4-file.md?plain=1) that caused the error. There are no links so the file will break.
 
-![output]()
-File with no link bug fix:
-https://github.com/swang0222/markdown-parser/commit/a8a070cd126e900b856085930cc930f718615890
+Example of the output of given test file:
+![output](https://raw.githubusercontent.com/vjwuUCSD/cse15l-lab-reports/main/LabReport2/Screen%20Shot%202022-04-24%20at%209.32.14%20PM.png)
+The error is that the program is stuck on this output and is in an infinite loop.
+
+### **Explanation of bug, symptom, and input**
+
+This is an example of different bugs causing the same symptoms. In this case, the bug is that there are no links in the file and the program is constantly trying to read up to the next link. Since `currentIndex` will never change, it will always be less than `markdown.length`.
+
+The symptom is that the program will never conclude running and will be stuck on an infinite loop which was the same symptom as the bug above. 
+
+However, the failure inducing input [test file](https://github.com/vjwuUCSD/markdown-parser/blob/main/my%20test%20files/test4-file.md?plain=1) was instead a file that contained no links at all. 
+
+The solution to this fix can be solved in many ways. My lab partner Sean's solution was to create an `if` statement that would return the empty ArrayList if `"["` and `"]`" were not in the file. While not a perfect implementation, it would solve the issue in this case. My implementation from the bug above would also coincidentally solve this bug.
+
+
