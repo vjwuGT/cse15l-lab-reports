@@ -19,6 +19,8 @@ Example of the fix:
 Example of the output given the test file:
 ![output](https://raw.githubusercontent.com/vjwuUCSD/cse15l-lab-reports/main/LabReport2/Screen%20Shot%202022-04-24%20at%208.24.01%20PM.png)
 
+### **Explanation of bug, symptom, and input**
+
 The bug is that there the `MarkdownParser.java` file will read image links as regular links because of the similar implementation in markdown. 
 
 This creates a symptom of image links being added to the ArrayList of links in the output. 
@@ -32,11 +34,20 @@ The change shown above reads the substring before the next instance of `"["` and
 Example of the fix:
 ![change](https://raw.githubusercontent.com/vjwuUCSD/cse15l-lab-reports/main/LabReport2/Screen%20Shot%202022-04-24%20at%208.55.50%20PM.png)
 
-[Test file](https://github.com/vjwuUCSD/markdown-parser/blob/7806b22acdf41e0f9153f9389279ffd4ce432c41/test3-file.md?plain=1)
+[Test file](https://github.com/vjwuUCSD/markdown-parser/blob/7806b22acdf41e0f9153f9389279ffd4ce432c41/test3-file.md?plain=1) that caused the error. The file has a header after the last link.
 
+Example of the output given the test file:
+![broken](https://raw.githubusercontent.com/vjwuUCSD/cse15l-lab-reports/main/LabReport2/Screen%20Shot%202022-04-24%20at%209.01.34%20PM.png)
+### **Explanation of bug, symptom, and input**
+The bug is that the program is stuck in a while loop based off of the length of the entire markdown file. However, the loop only ends when the variable `currentIndex` is equal or greater than the length of the markdown file. Since `currentIndex` can only reach the index of the last `")"`, this implementation is bugged.
 
+When the last line is not a properly implemented link, the symptom will be throwing a `java.lang.OutOfMemoryError`.
 
-Infinite loop bug fix:
-https://github.com/vjwuUCSD/markdown-parser/commit/9ea5e88df1167fccdc7e9264cb0cbf9ed2b91c72 
+The failure inducing input contained in the [test file](https://github.com/vjwuUCSD/markdown-parser/blob/7806b22acdf41e0f9153f9389279ffd4ce432c41/test3-file.md?plain=1) has a line at the end of the program that is not a link which lets the program run into the bug and show the symptom.
+
+The change that was implemented is to instead run the while loop to the `markdown.lastIndexOf(")")` so the program will stop at the parenthesis instead. This change is not perfect but will work for most cases.
+
+## **File with no link bug fix:**
+
 File with no link bug fix:
 https://github.com/swang0222/markdown-parser/commit/a8a070cd126e900b856085930cc930f718615890
