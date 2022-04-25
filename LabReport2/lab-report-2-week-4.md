@@ -66,6 +66,6 @@ The symptom is that the program will never conclude running and will be stuck on
 
 However, the failure inducing input [test file](https://github.com/vjwuUCSD/markdown-parser/blob/main/my%20test%20files/test4-file.md?plain=1) was instead a file that contained no links at all. 
 
-The solution to this fix can be solved in many ways. My lab partner Sean's solution was to create an `if` statement that would return the empty ArrayList if `"["` and `"]`" were not in the file. While not a perfect implementation, it would solve the issue in this case. My implementation from the bug above would also coincidentally solve this bug.
+The solution to this fix can be solved in many ways. My lab partner Sean's solution was to create an `if` statement that would return the empty ArrayList if `"["` and `"]"` were not in the file. While not a perfect implementation, it would solve the issue in this case. My implementation from the bug above would also coincidentally solve this bug.
 
 
