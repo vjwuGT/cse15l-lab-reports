@@ -30,6 +30,16 @@ Try using `scp` to copy over files into the remote with your new log in command.
 
 ## **Setup Github Access from ieng6** 
 
-this is dumb
+In oder to setup `git` commands to be able to be run on the terminal, the following needs to be done. SSH keys need to be setup with our GitHub account.
 
-asdasd
+
+The public key is stored on Github here:
+![image1]()
+
+The public key is stored in my user account here:
+![image2]()
+The private key is stored on my user account here:
+![image3]()
+Here is a an example of running `git` commands on the remote machine:
+
+This is a link to the resulting commit:
