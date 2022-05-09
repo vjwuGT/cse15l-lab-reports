@@ -21,4 +21,9 @@ Since the file is just a text file, your default text editor should be able to e
 
 5. Remove the `.txt` file ending and save.
 6. Try logging in with just `ssh ieng6`. It should look like this 
-![image2]()
+![image2](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport3/Screen%20Shot%202022-04-29%20at%207.41.37%20PM.png?raw=true)
+7. Success! You are done.
+
+Try using `scp` to copy over files into the remote with your new log in command. A successful result should look like:
+
+![image3]()
