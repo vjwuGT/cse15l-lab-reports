@@ -34,12 +34,18 @@ In oder to setup `git` commands to be able to be run on the terminal, the follow
 
 
 The public key is stored on Github here:
-![image1]()
+![image1](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport3/Screen%20Shot%202022-05-08%20at%209.35.07%20PM.png?raw=true)
 
 The public key is stored in my user account here:
-![image2]()
-The private key is stored on my user account here:
-![image3]()
-Here is a an example of running `git` commands on the remote machine:
+![image2](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport3/Screen%20Shot%202022-05-08%20at%209.37.09%20PM.png?raw=true)
 
-This is a link to the resulting commit:
+The private key is stored on my user account here:
+![image3](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport3/Screen%20Shot%202022-05-08%20at%209.38.28%20PM.png?raw=true)
+
+Here is a an example of running `git` commands on the remote machine:
+![image4](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport3/Screen%20Shot%202022-05-08%20at%209.58.02%20PM.png?raw=true)
+
+Here is the resulting [commit](https://github.com/vjwuUCSD/markdown-parser/commit/bfcc273e2533cdd521bf6a00293409fbe4d92132).
+
+## 
+
