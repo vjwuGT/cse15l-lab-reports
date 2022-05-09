@@ -47,5 +47,20 @@ Here is a an example of running `git` commands on the remote machine:
 
 Here is the resulting [commit](https://github.com/vjwuUCSD/markdown-parser/commit/bfcc273e2533cdd521bf6a00293409fbe4d92132).
 
-## 
+## **Copy whole directories with `scp -r`**
+
+We can copy entire directories onto the remote using `scp -r`.
+Using the following command, the output would look like this. It extends for much longer but since there are a lot of files, only a portion is shown.
+
+![image]()
+
+Here is an example of running the code on the remote. 
+
+![image2]()
+
+Running all the code in one line:
+
+![image3]()
+
+![image4]()
 
