@@ -52,15 +52,16 @@ Here is the resulting [commit](https://github.com/vjwuUCSD/markdown-parser/commi
 We can copy entire directories onto the remote using `scp -r`.
 Using the following command, the output would look like this. It extends for much longer but since there are a lot of files, only a portion is shown.
 
-![image]()
+![image](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport3/Screen%20Shot%202022-05-08%20at%2010.10.13%20PM.png?raw=true)
 
-Here is an example of running the code on the remote. 
+Here is an example of running the code on the remote:
 
-![image2]()
+![image2](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport3/Screen%20Shot%202022-05-08%20at%2010.14.17%20PM.png?raw=true)
 
 Running all the code in one line:
 
-![image3]()
+![image3](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport3/Screen%20Shot%202022-05-08%20at%2010.17.49%20PM.png?raw=true)
 
-![image4]()
+Tests run and passed:
+![image4](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport3/Screen%20Shot%202022-05-08%20at%2010.17.32%20PM.png?raw=true)
 
