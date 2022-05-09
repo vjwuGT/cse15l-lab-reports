@@ -26,4 +26,7 @@ Since the file is just a text file, your default text editor should be able to e
 
 Try using `scp` to copy over files into the remote with your new log in command. A successful result should look like:
 
-![image3]()
+![image3](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport3/Screen%20Shot%202022-05-08%20at%208.33.52%20PM.png?raw=true)
+
+## **Setup Github Access from ieng6** a
+
