@@ -127,7 +127,7 @@ The test written was:
 
 Output was:
 
-![output](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport4/Screen%20Shot%202022-05-22%20at%209.21.01%20PM.png?raw=true)
+![output](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport4/Screen%20Shot%202022-05-22%20at%209.34.17%20PM.png?raw=true)
 
 ### My code
 
@@ -135,7 +135,7 @@ Output was:
 
 Output was:
 
-![output2](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport4/Screen%20Shot%202022-05-22%20at%209.21.22%20PM.png?raw=true)
+![output2](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport4/Screen%20Shot%202022-05-22%20at%209.35.07%20PM.png?raw=true)
 
 **How can we fix this?**
 
