@@ -59,11 +59,11 @@ However, the issue could be more complicated and could take more lines after tho
 [some escaped \[ brackets \] (example.com)
 ```
 
-A properly implemented `MarkdownParse.java` should return the links [`a.com, a.com(()), example.com].
+A properly implemented `MarkdownParse.java` should return the links [a.com, a.com(()), example.com].
 
 The test written was:
 
-![test](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport4/Screen%20Shot%202022-05-22%20at%209.17.55%20PM.png?raw=true)
+![test](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport4/Screen%20Shot%202022-05-22%20at%209.30.15%20PM.png?raw=true)
 
 ### Reviewed code
 
