@@ -23,7 +23,7 @@ A properly implemented `MarkdownParse.java` should return the links [`google.com
 
 The test written was:
 
-![test](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport4/Screen%20Shot%202022-05-22%20at%209.09.34%20PM.png?raw=true)
+![test](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport4/Screen%20Shot%202022-05-22%20at%209.32.18%20PM.png?raw=true)
 
 
 ### Reviewed code
@@ -118,7 +118,7 @@ A properly implemented `MarkdownParse.java` should return the link [https://site
 
 The test written was:
 
-![test](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport4/Screen%20Shot%202022-05-22%20at%209.17.55%20PM.png?raw=true)
+![test](https://github.com/vjwuUCSD/cse15l-lab-reports/blob/main/LabReport4/Screen%20Shot%202022-05-22%20at%209.31.44%20PM.png?raw=true)
 
 ### Reviewed code
 
@@ -139,6 +139,6 @@ Output was:
 
 **How can we fix this?**
 
-This would likely not be a small code change as the issue gets very complicated when involving nested links. The current format of counting the indices of `"["`, `"]"`, `"("`, and `")"` gets extremely complicated when multiple of each are involved in a single link.
+This could potentially be a small change. Writing a few lines to ignore a link if there are line breaks in between the indices of `"["` and `"]"` would likely solve the issue. Additionally, figuring out how line breaks affect the currentIndex would be beneficial. This would likely only take a few lines to fix. 
 
-This would probably not be possible with just 10 line changes as a complete redesign would likely be necessary.
+The extra long lines should work as intended but for some reason do not. This might mean that characters on new lines are not simply 1 index higher. More testing would be needed but it does not appear to be a complicated issue.
